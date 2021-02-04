@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+}
+/* start */
+
+header {
+  background-image: url("/images/bg-desktop-dark.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+header nav h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+header nav button {
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div {
+  width: 50%;
+  height: 5vh;
+  position: relative;
+}
+
+header div input:first-child {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem 1.5rem 1.5rem 2.5rem;
+  position: absolute;
+}
+
+#inter {
+  position: absolute;
+  top: 19px;
+  left: 10px;
+  z-index: 2;
+  background-color: rebeccapurple;
+  width: 15px;
+  height: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+#inter:active {
+  transform: translate(1px, 1px);
+}
+
+main ul {
+  list-style-type: none;
+  width: 50%;
+}
+
+main ul li {
+  padding: 1rem;
+}
+
+/* start my class */
+.input {
+  width: 100%;
+  height: 50px;
+  padding: 1rem;
+  background-color: #fff;
+  border-top: 1px solid rgb(212, 208, 208);
+  border-radius: 5px;
+}
+/* end my class */
